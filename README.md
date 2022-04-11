@@ -2,6 +2,8 @@
 
 A flexible generic `IRepository` interface you can use on both the front end and back end. You can use it on the back end to access data, and also on the client to define a generic API Repository, which wraps calls to the API with an `HttpClient` object.
 
+Nuget: [https://www.nuget.org/packages/AvnRepository/](https://www.nuget.org/packages/AvnRepository/)
+
 #### Classes
 
 *APIEntityResponse.cs*
