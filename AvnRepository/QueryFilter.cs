@@ -330,9 +330,9 @@ public class QueryFilter<TEntity> where TEntity : class
             if (prop != null)
             {
                 if (OrderByDescending)
-                    query = query.Where(expression).OrderByDescending(x => prop.GetValue(x, null));
+                    query = query.OrderByDescending(x => prop.GetValue(x, null));
                 else
-                    query = query.Where(expression).OrderBy(x => prop.GetValue(x, null));
+                    query = query.OrderBy(x => prop.GetValue(x, null));
             }
         }
 
