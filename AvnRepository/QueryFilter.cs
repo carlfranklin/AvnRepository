@@ -247,7 +247,7 @@ public class QueryFilter<TEntity> where TEntity : class
                     expression = s => Convert.ToSingle(s.GetType().GetProperty(filterProperty.Name).GetValue(s).ToString()) >= value;
             }
             // Double
-            else if (prop.PropertyType == typeof(Single))
+            else if (prop.PropertyType == typeof(Double))
             {
                 Double value = Convert.ToDouble(filterProperty.Value);
 
