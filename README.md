@@ -258,7 +258,5 @@ public enum FilterOperator
 
 ## Demo
 
-I've created a demo that uses AvnRepository to create back end repositories for in-memory data, Entity Framework, and Dapper at [https://github.com/carlfranklin/AvnRepository](https://github.com/carlfranklin/AvnRepository)
-
-
+I've created a demo that uses **AvnRepository** to create back end repositories for in-memory data, Entity Framework, and Dapper at [https://github.com/carlfranklin/BlazorRepositoryDemo](https://github.com/carlfranklin/BlazorRepositoryDemo)
 
