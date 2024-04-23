@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Authors>CarlFranklin</Authors>
 		<Company>App vNext</Company>
 		<Description>A generic re-usable repository interface with support for passing queries over the wire.</Description>
-		<Copyright>Copyright 2022 by App vNext, LLC</Copyright>
+		<Copyright>Copyright 2022-2024 by App vNext, LLC</Copyright>
 		<PackageProjectUrl></PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/carlfranklin/AvnRepository</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<NeutralLanguage>en</NeutralLanguage>
-		<Version>1.2.0</Version>
+		<Version>8.0.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -25,8 +25,8 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
 	</ItemGroup>
 	
 </Project>
