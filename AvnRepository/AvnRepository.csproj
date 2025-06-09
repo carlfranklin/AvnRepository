@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net9.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -14,7 +14,7 @@
 		<RepositoryUrl>https://github.com/carlfranklin/AvnRepository</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<NeutralLanguage>en</NeutralLanguage>
-		<Version>8.0.0</Version>
+		<Version>9.00</Version>
 		<Title>AvnRepository</Title>
 		<PackAsTool>True</PackAsTool>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -33,7 +33,7 @@
 	
 	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
 	</ItemGroup>
 	
 </Project>
