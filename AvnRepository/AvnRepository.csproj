@@ -14,7 +14,7 @@
 		<RepositoryUrl>https://github.com/carlfranklin/AvnRepository</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<NeutralLanguage>en</NeutralLanguage>
-		<Version>9.00</Version>
+		<Version>9.0.1</Version>
 		<Title>AvnRepository</Title>
 		<PackAsTool>True</PackAsTool>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -32,7 +32,6 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
 	</ItemGroup>
 	
