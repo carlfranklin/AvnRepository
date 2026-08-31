@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net9.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Authors>App vNext</Authors>
 		<Company>App vNext</Company>
 		<Description>A generic re-usable repository interface with support for passing queries over the wire.</Description>
-		<Copyright>Copyright 2022-2024 by App vNext, LLC</Copyright>
+		<Copyright>Copyright 2022-2026 by App vNext, LLC</Copyright>
 		<PackageProjectUrl></PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/carlfranklin/AvnRepository</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<NeutralLanguage>en</NeutralLanguage>
-		<Version>9.0.1</Version>
+		<Version>10.0.1</Version>
 		<Title>AvnRepository</Title>
 		<PackAsTool>True</PackAsTool>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -32,7 +32,7 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.11" />
 	</ItemGroup>
 	
 </Project>
