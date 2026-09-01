@@ -23,7 +23,7 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Pack
-        run: dotnet pack AvnRepository.sln -c Release -o ./artifacts
+        run: dotnet pack AvnRepository.sln -c Release -o ./artifacts -p:GeneratePackageOnBuild=false
 
       - name: NuGet login (OIDC -> temp API key)
         uses: NuGet/login@v1
