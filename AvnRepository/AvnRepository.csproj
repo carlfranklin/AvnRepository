@@ -14,9 +14,8 @@
 		<RepositoryUrl>https://github.com/carlfranklin/AvnRepository</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<NeutralLanguage>en</NeutralLanguage>
-		<Version>10.0.1</Version>
+		<Version>10.0.2</Version>
 		<Title>AvnRepository</Title>
-		<PackAsTool>True</PackAsTool>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	</PropertyGroup>
 
